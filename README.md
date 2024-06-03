@@ -134,37 +134,37 @@ The application also provides a RESTful API for interacting with books, authors,
 
 ## Project Structure
 
-bookstore/
-├── bookstore/
-│ ├── init.py
-│ ├── settings.py
-│ ├── urls.py
-│ ├── wsgi.py
-│ └── asgi.py
-├── store/
-│ ├── init.py
-│ ├── admin.py
-│ ├── apps.py
-│ ├── forms.py
-│ ├── models.py
-│ ├── tests.py
-│ ├── urls.py
-│ ├── views.py
-│ ├── api_views.py # API views
-│ ├── serializers.py # Serializers for API
-│ ├── templates/
-│ │ └── store/
-│ │ ├── base.html
-│ │ ├── book_list.html
-│ │ ├── book_form.html
-│ │ ├── author_list.html
-│ │ ├── author_form.html
-│ │ ├── category_list.html
-│ │ ├── category_form.html
-│ │ └── book_confirm_delete.html
-│ │ └── author_confirm_delete.html
-│ │ └── category_confirm_delete.html
-└── manage.py
+bookstore/\
+├── bookstore/\
+│ ├── init.py\
+│ ├── settings.py\
+│ ├── urls.py\
+│ ├── wsgi.py\
+│ └── asgi.py\
+├── store/\
+│ ├── init.py\
+│ ├── admin.py\
+│ ├── apps.py\
+│ ├── forms.py\
+│ ├── models.py\
+│ ├── tests.py\
+│ ├── urls.py\
+│ ├── views.py\
+│ ├── api_views.py # API views\
+│ ├── serializers.py # Serializers for API\
+│ ├── templates/\
+│ │ └── store/\
+│ │ ├── base.html\
+│ │ ├── book_list.html\
+│ │ ├── book_form.html\
+│ │ ├── author_list.html\
+│ │ ├── author_form.html\
+│ │ ├── category_list.html\
+│ │ ├── category_form.html\
+│ │ └── book_confirm_delete.html\
+│ │ └── author_confirm_delete.html\
+│ │ └── category_confirm_delete.html\
+└── manage.py\
 
 python
 Copy code
